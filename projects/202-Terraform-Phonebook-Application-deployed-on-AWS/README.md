@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Project-202 : Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using Terraform
+=======
+# Project-207 : Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using Terraform
+>>>>>>> bd4943674c89225bcf3d5c4b8abae3de372dc765
 
 ## Description
 
@@ -66,6 +70,11 @@ thousand                         Warning -> 'Invalid input: Phone number should 
 
 - Lastly, after transforming your code into web application, you are requested to push your program to the project repository on the Github and deploy your solution in the development environment on AWS Cloud using Terraform to showcase your project. In the development environment, you can configure your Terraform file using the followings,
 
+<<<<<<< HEAD
+=======
+![Project_207](Security-Groups.png)
+
+>>>>>>> bd4943674c89225bcf3d5c4b8abae3de372dc765
   - The application should be created with new AWS resources.
 
   - Template should create Application Load Balancer with Auto Scaling Group of Amazon Linux 2 EC2 Instances within default VPC.

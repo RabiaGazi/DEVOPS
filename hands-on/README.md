@@ -14,9 +14,19 @@ List of hands-on trainings within DevOps as follows;
 
 - [Hands-on Docker-05 : Docker Image Basic Operations](./Docker/docker-05-image-basic-operations/)
 
+<<<<<<< HEAD
 # Docker Swarm
 
 - 
+=======
+- [Hands-on Docker-06 : Docker-06-compose-operations](./Docker/Docker-06-compose-operations/)
+
+- [Hands-on Docker-07 : Dockerize-to-do-app-on-python-flask](./Docker/dockerize-to-do-app-on-python-flask/)
+
+- [Hands-on Docker-08 : Docker Swarm Basic Operations](./Docker/docker-08-swarm-basic-operations/)
+
+- [Hands-on Docker-09 : Docker Swarm Networking Operations](./Docker/docker-09-swarm-networking-managing-services-secrets-stacks/)
+>>>>>>> bd4943674c89225bcf3d5c4b8abae3de372dc765
 
 # Maven
 
@@ -24,7 +34,13 @@ List of hands-on trainings within DevOps as follows;
 
 # Jenkins
 
+<<<<<<< HEAD
 - 
+=======
+- [Hands-on Jenkins-01 : Installing Jenkins on Amazon Linux 2 EC2 Instance](./Jenkins/jenkins-01-installing-jenkins/)
+
+- [Hands-on Jenkins-02 : Triggering Jenkins Jobs](./Jenkins/jenkins-02-triggers/)
+>>>>>>> bd4943674c89225bcf3d5c4b8abae3de372dc765
 
 
 # Kubernetes

@@ -183,9 +183,15 @@ docker push clarusway/flask-app:1.0
   
 ```Dockerfile
 FROM python:alpine
+<<<<<<< HEAD
 COPY . /app
 WORKDIR /app
 RUN pip install flask
+=======
+RUN pip install flask
+COPY . /app
+WORKDIR /app
+>>>>>>> bd4943674c89225bcf3d5c4b8abae3de372dc765
 EXPOSE 80
 CMD python ./welcome.py
 ```
@@ -218,6 +224,15 @@ docker stop welcome && docker rm welcome
 docker push clarusway/flask-app:2.0
 ```
 
+<<<<<<< HEAD
+=======
+- We can also tag the same image with different tags.
+
+```bash
+docker image tag clarusway/flask-app:2.0 clarusway/flask-app:latest
+```
+
+>>>>>>> bd4943674c89225bcf3d5c4b8abae3de372dc765
 - Delete image with `image id` locally.
 
 ```bash

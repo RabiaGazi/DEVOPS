@@ -75,7 +75,11 @@
     {% if show_result %}
         <h1>Result for '{{ keyword }}' </h1>
             <ul> 
+<<<<<<< HEAD
             {% for person in persons %}
+=======
+            {% for person in persons_html %}
+>>>>>>> bd4943674c89225bcf3d5c4b8abae3de372dc765
             <li>Name: <b>{{ person['name'] }} </b>  ---- Phone Number: <b>{{ person['number'] }}</b></li>
             {% endfor %}
             </ul>
