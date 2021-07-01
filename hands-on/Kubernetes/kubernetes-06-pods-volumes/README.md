@@ -98,17 +98,6 @@ kubectl explain pvc
 - Create a `clarus-pv-claim.yaml` file using the following content to create a `PersistentVolumeClaim` and explain fields.
 
 ```yaml
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: clarus-pv-claim
-spec:
-  storageClassName: manual
-  accessModes:
-    - ReadWriteOnce
-  resources:
-    requests:
-      storage: 5Gi
 ```
 
 - Create the PersistentVolumeClaim `clarus-pv-claim`.
@@ -177,7 +166,6 @@ kubectl exec -it clarus-pod -- /bin/bash
 - Verify that `nginx` is serving the `index.html` file from the `hostPath` volume.
 
 ```bash
-curl http://localhost/
 ```
 
 - Log into the `kube20-worker-1` node, change the `index.html`.
@@ -190,8 +178,6 @@ echo "Kubernetes Rocks!!!!" > index.html
 - Log into the `kube20-master` node, check if the change is in effect.
 
 ```bash
-kubectl exec -it clarus-pod -- /bin/bash
-curl http://localhost/
 ```
 
 - Expose the clarus-pod pod as a new Kubernetes service on master.
@@ -342,7 +328,7 @@ kubectl get pv,pvc
 kubectl delete -f .
 ```
 
-### Part 4 - EmptyDir
+## Part 4 - EmptyDir
 
 - An `emptyDir volume` is first created when a Pod is assigned to a node, and exists as long as that Pod is running on that node. 
 - As the name says, the emptyDir volume is initially empty. 
