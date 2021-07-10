@@ -216,6 +216,7 @@ Resources:
           Value: !Sub Docker Manager 2nd of ${AWS::StackName}
         - Key: project
           Value: "205"
+          
   DockerManager3:
     Type: AWS::EC2::Instance
     DependsOn:
