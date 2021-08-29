@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Project-202 : Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using Terraform
 =======
 # Project-207 : Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using Terraform
 >>>>>>> bd4943674c89225bcf3d5c4b8abae3de372dc765
+=======
+# Project-202 : Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using Terraform
+>>>>>>> c89af36bc9b6798859ac8f011b9a0bdd2f83f130
 
 ## Description
 

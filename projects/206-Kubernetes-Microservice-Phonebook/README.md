@@ -1,4 +1,4 @@
-# Project-206: Microservice Architecture for Phonebook Web Application (Python Flask) with MySQL using Kubernetes.
+# Project-206: Microservice Architecture for Phonebook Web Application (Python Flask) with MySQL using Kubernetes
 
 ## Description
 
@@ -118,7 +118,7 @@ Initial files:
     - index.html
     - add-update.html
     - delete.html
-4. kubernetes-env-cf.yaml         # Given to the students (Cloudformation template for Kubernetes architecture)
+4. cfn-template-to-create-k8s-cluster.yml         # Given to the students (Cloudformation template for Kubernetes architecture)
 
 Requested files:
 
